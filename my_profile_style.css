@@ -1,0 +1,89 @@
+.page{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	width: 700px;
+	display: flex;
+	padding: 150px 0px 0px;
+}
+
+.page .left{
+	width: 35%;
+	background: linear-gradient(to right, #00cc00, #66ff99);
+	padding: 30px 30px;
+}
+
+.page .right{
+	width: 65%;
+	padding: 30px 25px;
+	background: #f3f3f3;
+}
+
+.page .left .information{
+	padding: 30px 10px;
+}
+
+.page .right .programming .outer{
+	border: 3px solid black;
+}
+
+.page .right .programming .outer .c{
+	width: calc(90%);
+	background: #00cc00;
+}
+
+.page .right .programming .outer .cpp{
+	width: calc(70%);
+	background: #00cc00;
+}
+
+.page .right .programming .outer .java{
+	width: calc(70%);
+	background: #00cc00;
+}
+
+.page .right .foreign-languages .outer{
+	border: 3px solid black;
+}
+
+.page .right .foreign-languages .outer .english{
+	width: calc(90%);
+	background: #00cc00;
+}
+
+.page .right .foreign-languages .outer .french{
+	width: calc(20%);
+	background: #00cc00;
+}
+
+.page .right .programming{
+	border: 1px solid black;
+	padding: 0px 10px 10px 10px;
+	background: white;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+.page .right .education{
+	border: 1px solid black;
+	padding: 0px 10px 10px 10px;
+	background: white;
+	margin-bottom: 10px;
+}
+
+.page .right .skills{
+	border: 1px solid black;
+	padding: 0px 10px 10px 10px;
+	background: white;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+.page .right .foreign-languages{
+	border: 1px solid black;
+	padding: 0px 10px 10px 10px;
+	background: white;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
